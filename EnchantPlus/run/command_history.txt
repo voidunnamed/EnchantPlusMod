@@ -1,0 +1,8 @@
+/give @s diamond_sword[enchantments={enchantplus:vigor:3}]
+/give @s diamond_sword[minecraft:enchantments={enchantplus:vigor:3}]
+/give @s diamond_sword[minecraft:enchantments={enchantplus:vigor}]
+/give @s diamond_sword[minecraft:enchantments={enchantplus:vigor:1}]
+/give @s diamond_sword[minecraft:enchantments={"enchantplus:vigor":1}]
+/give @s diamond_sword[minecraft:enchantments={"enchantplus:vigor":3}]
+/give @s diamond_sword[minecraft:enchantments={"enchantplus:searing_edge":3}]
+/reload

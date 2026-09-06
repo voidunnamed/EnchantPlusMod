@@ -1,0 +1,32 @@
+{
+  "description": {
+    "translate": "enchantment.enchantplus.vigor"
+  },
+  "supported_items": "#minecraft:enchantable/weapon",
+  "slots": ["hand"],
+  "weight": 10,
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 8
+  },
+  "anvil_cost": 4,
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "enchantplus:vigor_attack_damage",
+        "attribute": "minecraft:attack_damage",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1.0,
+          "per_level_above_first": 1.0
+        },
+        "operation": "add_value"
+      }
+    ]
+  }
+}

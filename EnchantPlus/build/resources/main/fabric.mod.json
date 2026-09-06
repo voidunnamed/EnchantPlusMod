@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "enchantplus",
+  "version": "1.0-SNAPSHOT",
+  "name": "EnchantPlus",
+  "description": "A mod who add more enchantments to minecraft !",
+  "authors": ["ItStelax"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/enchantplus/icon/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "fr.cozyhouse.enchantplus.client.EnchantplusDataGenerator"
+    ],
+    "client": [
+      "fr.cozyhouse.enchantplus.client.EnchantplusClient"
+    ],
+    "main": [
+      "fr.cozyhouse.enchantplus.Enchantplus"
+    ]
+  },
+  "mixins": [
+    "enchantplus.mixins.json",
+    {
+      "config": "enchantplus.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric-api": "*",
+    "minecraft": "26.2"
+  }
+}
