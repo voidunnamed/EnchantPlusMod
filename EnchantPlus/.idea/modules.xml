@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EnchantPlus.client.iml" filepath="$PROJECT_DIR$/.idea/modules/EnchantPlus.client.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EnchantPlus.main.iml" filepath="$PROJECT_DIR$/.idea/modules/EnchantPlus.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EnchantPlus.test.iml" filepath="$PROJECT_DIR$/.idea/modules/EnchantPlus.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fr.cozyhouse.EnchantPlus.client.iml" filepath="$PROJECT_DIR$/.idea/modules/fr.cozyhouse.EnchantPlus.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fr.cozyhouse.EnchantPlus.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fr.cozyhouse.EnchantPlus.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fr.cozyhouse.EnchantPlus.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fr.cozyhouse.EnchantPlus.test.iml" />
     </modules>
   </component>
 </project>
