@@ -1,0 +1,35 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:diamond_sword": 41
+    },
+    "minecraft:killed": {
+      "minecraft:skeleton": 1,
+      "minecraft:warden": 1,
+      "minecraft:chicken": 1,
+      "minecraft:pig": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:cooked_mutton": 2,
+      "minecraft:sculk_catalyst": 1,
+      "minecraft:white_wool": 1,
+      "minecraft:feather": 1,
+      "minecraft:chicken": 1,
+      "minecraft:bow": 1,
+      "minecraft:arrow": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 5812,
+      "minecraft:time_since_rest": 4344,
+      "minecraft:walk_one_cm": 1518,
+      "minecraft:total_world_time": 5450,
+      "minecraft:fly_one_cm": 48686,
+      "minecraft:mob_kills": 5,
+      "minecraft:play_time": 4344,
+      "minecraft:damage_dealt": 5410,
+      "minecraft:jump": 55,
+      "minecraft:time_since_death": 4344
+    }
+  },
+  "DataVersion": 4903
+}

@@ -2,9 +2,9 @@
   "description": {
     "translate": "enchantment.enchantplus.searing_edge"
   },
-  "supported_items": "#minecraft:enchantable/weapon",
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
   "slots": ["hand"],
-  "weight": 5,
+  "weight": 4,
   "max_level": 1,
   "min_cost": {
     "base": 10,

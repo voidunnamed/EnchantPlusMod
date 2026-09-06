@@ -1,0 +1,28 @@
+{
+  "description": {
+    "translate": "enchantment.enchantplus.light_step"
+  },
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 4,
+  "max_level": 2,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 2,
+  "slots": ["feet"],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "enchantplus:light_step",
+        "attribute": "minecraft:movement_speed",
+        "amount": { "type": "minecraft:linear", "base": 0.03, "per_level_above_first": 0.03 },
+        "operation": "add_value"
+      }
+    ]
+  }
+}

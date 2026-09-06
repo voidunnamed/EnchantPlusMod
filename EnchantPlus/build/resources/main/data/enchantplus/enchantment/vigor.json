@@ -2,7 +2,7 @@
   "description": {
     "translate": "enchantment.enchantplus.vigor"
   },
-  "supported_items": "#minecraft:enchantable/weapon",
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
   "slots": ["hand"],
   "weight": 10,
   "max_level": 3,
@@ -21,12 +21,31 @@
         "id": "enchantplus:vigor_attack_damage",
         "attribute": "minecraft:attack_damage",
         "amount": {
-          "type": "minecraft:linear",
-          "base": 1.0,
-          "per_level_above_first": 1.0
+          "type": "minecraft:lookup",
+          "fallback": 0.0,
+          "values": [
+            {
+              "type": "minecraft:linear",
+              "base": 1.0,
+              "per_level_above_first": 1.0
+            },
+            {
+              "type": "minecraft:linear",
+              "base": 2.0,
+              "per_level_above_first": 2.0
+            },
+            {
+              "type": "minecraft:linear",
+              "base": 3.0,
+              "per_level_above_first": 3.0 
+            }
+          ]
         },
         "operation": "add_value"
       }
     ]
-  }
+  },
+  "exclusive_set" : [
+    "minecraft:sharpness"
+  ]
 }

@@ -1,7 +1,11 @@
 {
   "pack": {
-    "description": {"text" :  "EnchantPlus", "color" :  "red", "bold" :  true},
-    "min_format": 107.1,
-    "max_format": 107.1
+    "description": {
+      "text": "EnchantPlus",
+      "color": "red",
+      "bold": true
+    },
+    "min_format": 107,
+    "max_format": 107
   }
 }

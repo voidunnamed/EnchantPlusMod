@@ -1,0 +1,30 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 2363,
+      "minecraft:walk_one_cm": 1981,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 1,
+      "minecraft:play_time": 2363,
+      "minecraft:damage_dealt": 270,
+      "minecraft:jump": 12,
+      "minecraft:time_since_death": 2363,
+      "minecraft:sprint_one_cm": 9958,
+      "minecraft:total_world_time": 3535,
+      "minecraft:fly_one_cm": 10900,
+      "minecraft:interact_with_anvil": 1,
+      "minecraft:sneak_time": 20
+    },
+    "minecraft:picked_up": {
+      "minecraft:gunpowder": 2,
+      "minecraft:bone": 1
+    },
+    "minecraft:used": {
+      "minecraft:diamond_sword": 4
+    },
+    "minecraft:killed": {
+      "minecraft:creeper": 1
+    }
+  },
+  "DataVersion": 4903
+}

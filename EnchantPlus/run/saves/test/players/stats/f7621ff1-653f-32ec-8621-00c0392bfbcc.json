@@ -1,0 +1,28 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:panda_spawn_egg": 2,
+      "minecraft:diamond_sword": 5
+    },
+    "minecraft:picked_up": {
+      "minecraft:bamboo": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 1640,
+      "minecraft:time_since_rest": 816,
+      "minecraft:walk_one_cm": 2995,
+      "minecraft:total_world_time": 27144,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 26,
+      "minecraft:mob_kills": 1,
+      "minecraft:play_time": 816,
+      "minecraft:damage_dealt": 340,
+      "minecraft:jump": 4,
+      "minecraft:time_since_death": 816
+    },
+    "minecraft:killed": {
+      "minecraft:panda": 1
+    }
+  },
+  "DataVersion": 4903
+}

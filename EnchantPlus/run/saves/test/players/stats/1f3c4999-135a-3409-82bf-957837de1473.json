@@ -1,0 +1,28 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:diamond_sword": 7
+    },
+    "minecraft:killed": {
+      "minecraft:trader_llama": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:lead": 1,
+      "minecraft:leather": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 3864,
+      "minecraft:time_since_rest": 942,
+      "minecraft:walk_one_cm": 5397,
+      "minecraft:total_world_time": 12763,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 264,
+      "minecraft:mob_kills": 1,
+      "minecraft:play_time": 942,
+      "minecraft:damage_dealt": 440,
+      "minecraft:jump": 2,
+      "minecraft:time_since_death": 942
+    }
+  },
+  "DataVersion": 4903
+}
