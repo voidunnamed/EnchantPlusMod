@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "kill_with_rusty_edge": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+            "minecraft:equipment": { "mainhand": { "predicates": { "minecraft:enchantments": [{ "enchantments": "enchantplus:searing_edge", "levels": { "min": 1 } }] } } }
+        }
+      }
+    }
+  },
+  "rewards": {"function": "enchantplus:celebrate_first_kill"},
+  "display": {"hidden": true, "show_toast": true, "title": "first kill searing edge", "description": "first kill searing edge", "icon": {"id": "minecraft:diamond_sword"}}
+}

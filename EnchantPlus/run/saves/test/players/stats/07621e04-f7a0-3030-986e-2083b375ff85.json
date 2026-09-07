@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:cooked_beef": 2,
+      "minecraft:leather": 2
+    },
+    "minecraft:killed": {
+      "minecraft:cow": 1
+    },
+    "minecraft:used": {
+      "minecraft:anvil": 1,
+      "minecraft:diamond_sword": 2
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 1545,
+      "minecraft:time_since_rest": 1360,
+      "minecraft:walk_one_cm": 650,
+      "minecraft:total_world_time": 1874,
+      "minecraft:fly_one_cm": 5660,
+      "minecraft:interact_with_anvil": 1,
+      "minecraft:mob_kills": 1,
+      "minecraft:play_time": 1360,
+      "minecraft:damage_dealt": 90,
+      "minecraft:jump": 4,
+      "minecraft:time_since_death": 1360
+    }
+  },
+  "DataVersion": 4903
+}

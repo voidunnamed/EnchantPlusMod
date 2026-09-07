@@ -1,0 +1,10 @@
+{
+  "parent" : "enchantplus:rusty_first_kill",
+  "criteria": {
+    "ten_kills": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {"function": "enchantplus:celebrate_ten_kills"},
+  "display": {"hidden": true, "show_toast": true, "title": "10 kills searing edge", "description": "10 kills searing edge", "icon": {"id": "minecraft:silence_armor_trim_smithing_template"}}
+}

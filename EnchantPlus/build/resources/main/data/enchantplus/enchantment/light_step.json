@@ -23,6 +23,54 @@
         "amount": { "type": "minecraft:linear", "base": 0.03, "per_level_above_first": 0.03 },
         "operation": "add_value"
       }
+    ],
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "particle": {
+            "type": "minecraft:cloud"
+          },
+          "horizontal_position": { "type": "in_bounding_box", "scale": 0.5 },
+          "vertical_position": { "type": "entity_position", "offset": 0.0 },
+          "horizontal_velocity": { "base": 0.0, "movement_scale": 0.0},
+          "vertical_velocity": { "base": 0.0, "movement_scale": 0.0}
+        }
+      }
+    ],
+    "minecraft:location_changed": [
+      {
+        "requirements": {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:enchantment_level",
+            "amount": { "type": "minecraft:linear", "base": 1.0, "per_level_above_first": 1.0 }
+          },
+          "range": 1
+        },
+        "effect": {
+          "type": "minecraft:play_sound",
+          "sound": "block.note_block.pling",
+          "pitch": { "type": "minecraft:constant", "value": 1.0 },
+          "volume": { "type": "minecraft:constant", "value": 0.5 }
+        }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:enchantment_level",
+            "amount": { "type": "minecraft:linear", "base": 1.0, "per_level_above_first": 1.0 }
+          },
+          "range": 2
+        },
+        "effect": {
+          "type": "minecraft:play_sound",
+          "sound": "block.note_block.pling",
+          "pitch": { "type": "minecraft:constant", "value": 1.5 },
+          "volume": { "type": "minecraft:constant", "value": 0.5 }
+        }
+      }
     ]
   }
 }

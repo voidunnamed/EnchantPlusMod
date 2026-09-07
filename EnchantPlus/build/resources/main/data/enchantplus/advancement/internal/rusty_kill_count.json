@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "minecraft:equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "enchantplus:searing_edge",
+                    "levels": { "min": 1 }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [["kill"]],
+  "rewards": {
+    "function": "enchantplus:searing_kill_count"
+  }
+}

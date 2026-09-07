@@ -1,5 +1,8 @@
 package fr.cozyhouse.enchantplus;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import fr.cozyhouse.enchantplus.network.DamagePayload;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.entity.event.v1.ServerLivingEntityEvents;
@@ -9,10 +12,13 @@ import net.minecraft.server.level.ServerPlayer;
 
 public class Enchantplus implements ModInitializer {
 
-    public static final String MOD_ID = "damagenumbers";
+    public static final String MOD_ID = "enchantplus";
+    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
     @Override
     public void onInitialize() {
+        LOGGER.info("enchantPlus charged !");
+
         PayloadTypeRegistry.clientboundPlay().register(DamagePayload.TYPE, DamagePayload.STREAM_CODEC);
 
         ServerLivingEntityEvents.ALLOW_DAMAGE.register((entity, source, damageTaken) ->{

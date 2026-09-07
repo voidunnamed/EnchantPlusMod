@@ -16,32 +16,24 @@
   },
   "anvil_cost": 4,
   "effects": {
-    "minecraft:attributes": [
+    "minecraft:post_attack": [ 
       {
-        "id": "enchantplus:vigor_attack_damage",
-        "attribute": "minecraft:attack_damage",
-        "amount": {
-          "type": "minecraft:lookup",
-          "fallback": 0.0,
-          "values": [
-            {
-              "type": "minecraft:linear",
-              "base": 1.0,
-              "per_level_above_first": 1.0
-            },
-            {
-              "type": "minecraft:linear",
-              "base": 2.0,
-              "per_level_above_first": 2.0
-            },
-            {
-              "type": "minecraft:linear",
-              "base": 3.0,
-              "per_level_above_first": 3.0 
-            }
-          ]
-        },
-        "operation": "add_value"
+        "affected": "victim",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "minecraft:damage_entity",
+          "min_damage": {
+            "type": "minecraft:linear",
+            "base": 1.0,
+            "per_level_above_first": 1.0 
+          },
+          "max_damage": {
+            "type": "minecraft:linear",
+            "base": 2.0,
+            "per_level_above_first": 2.0 
+          },
+          "damage_type": "minecraft:mob_attack"
+        }
       }
     ]
   },

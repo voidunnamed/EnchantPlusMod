@@ -23,3 +23,20 @@
 /give @s diamond_sword[minecraft:enchantments={"enchantplus:vigor":3}]
 /summon minecraft:warden 73.21 77.00 867.44
 /give @s diamond_sword[minecraft:enchantments={"enchantplus:vigor":1}]
+/scoreboard players display name Player331 rusty_kills
+/scoreboard players display numberformat Player331 rusty_kills
+/scoreboard players list Player331
+/scoreboard players get Player788 rusty_kills
+/scoreboard players list Player331
+/scoreboard objectives add test dummy test
+/scoreboard players list Player331
+/scoreboard objectives add test dummy test
+/scoreboard objectives modify test displayname test
+/scoreboard players list Player331
+/scoreboard objectives setdisplay below_name test
+/scoreboard objectives setdisplay sidebar test
+/scoreboard players list Player331
+/scoreboard players add Player788 test 13
+/scoreboard players list Player331
+/scoreboard players add Player788 test 0
+/scoreboard players enable Player788 test
